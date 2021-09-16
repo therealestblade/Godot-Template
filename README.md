@@ -1,13 +1,11 @@
-# Exercise-02d-Godot-Template
-Exercise for MSCH-C220, 16 September 2021
-
-The purpose of this exercise is to create a template of a Godot project that can be used for future projects.
+# Godot-Template
+For use in MSCH-C220
 
 One of the problems with hosting a Godot project on GitHub is that both platforms assume that projects (or repositories) will be created inside an empty folder. If you clone an empty repository and try to create a Godot project inside it, Godot will complain (since it actually contains the .git folder), and if you create a project in a new folder in Godot, it won't be tracked by git.
 
 We are going to create a (nearly) empty Godot project that you can build from in the future.
 
-First, fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Exercise-02d-Godot-Template. Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
+First, fork this repository. When that process has completed, make sure that the top of the repository reads [your username]/Godot-Template. Edit the LICENSE and replace BL-MSCH-C220-F21 with your full name. Commit your changes.
 
 Then edit .gitignore. Replace its contents with the following:
 ```
@@ -104,7 +102,7 @@ Map those inputs to w, s, a, d, and escape (respectively).
 
 Finally, in the Scene Node, Create Root Node: 2D Scene. Name the resulting node "Game". Save the scene as Game.tscn.
 
-Quit Godot. Navigate to the Template folder you created. Copy all the files to the Exercise-02d-Godot-Template folder being tracked by GitHub.
+Quit Godot. Navigate to the Template folder you created. Copy all the files to the Godot-Template folder being tracked by GitHub.
 
 In GitHub desktop, you should now see the updated files listed in the left panel. In the bottom of that panel, type a Summary message (something like "Creates the template") and press the "Commit to master" button. On the right side of the top, black panel, you should see a button labeled "Push origin". Press that now.
 
@@ -112,12 +110,10 @@ If you return to and refresh your GitHub repository page, you should now see you
 
 When you see the changes reflected on GitHub, you can remove the Template folder from your computer.
 
-Now edit the README.md file. When you have finished editing, commit your changes, and then turn in the URL of the main repository page (https://github.com/[username]/Exercise-02d-Godot-Template) on Canvas.
-
 The final state of the file should be as follows (replacing my information with yours):
 ```
-# Exercise-02d-Godot-Template
-Exercise for MSCH-C220, 16 September 2021
+# Godot-Template
+For use in MSCH-C220
 
 A Godot Project Template, for use in future projects.
 
